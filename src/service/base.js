@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const baseURL = '/'
-const ERR_OK = 0
+const ERR_OK = 01
 axios.defaults.baseURL = baseURL
 
 export function get(url,params){
